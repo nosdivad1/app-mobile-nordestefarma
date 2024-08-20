@@ -15,11 +15,10 @@
     <!-- Path to Framework7 Library Bundle CSS -->
     <link rel="stylesheet" href="lib/framework7-bundle.min.css" />
     <!-- CSS PERSONALIZADO PARA MENU-->
-    <link rel="stylesheet" href="css/index.css" />
     <!--Ícones Material Design-->
-    <link rel="stylesheet" href="css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="css/materialdesignicons.min.css"/>
     <!--Ícones do Remix icons-->
-    <link rel="stylesheet" href="css/remixicon/remixicon.css" />
+    <link rel="stylesheet" href="css/remixicon/remixicon.css"/>
   </head>
 
   <body>
@@ -27,38 +26,40 @@
     <div id="app">
       <!-- Your main view, should have "view-main" class -->
       <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="detalhes" class="page color-theme-blue">
         <!-- TAB BAR (MENU DE BAIXO DA TELA)-->
         <div class="toolbar toolbar-bottom">
           <div class="toolbar-inner display-flex">
-            
+            <div class="flex-40 text-align-center justify-content-center">
+              <span id="price-detail" class="riscado color-gray">R$ 19,90</span>
+              <h3 id="price-promo-detail" class="princing no-padding no-margin">R$ 9,90</h3>
+            </div>
+            <div class="flex-60"><button class="add-cart">Adicionar Carrinho</button>
+            </div>
           </div>
         </div>
 
-        <!-- Initial Page, "data-name" contains page name -->
-        <div data-name="index" class="page color-theme-blue">
-        <!-- Top Navbar (CONTEUDO DO TOPO DA TELA)-->
-          <div class="">
-            
-          </div>
-
         <!-- Scrollable page content (CONTEÚDO DO CORPO/MEIO DA TELA) -->
         <div class="page-content">
-          <div class="prod-detail">
-            <div class="buttons-top">
-              <a href="/index/"><i class="ri-arrow-left-s-line"></i></a>
+            <div class="prod-detail">
+              <div class="buttons-top">
+                <a href="/index/"><i class="ri-arrow-left-s-line"></i></a>
+              </div>
+              <img id="img-detail" src="img/paracetamol sem fundo.png">
             </div>
-            <img id="img-detail" src="img/resfenol.png">
-          </div>
-          <div class="prod-content">
-            <div class="block">
-              <div class="line padding-top">
-                <b id="name-detail" class="margin-left">Nome do Produto</b>
-                <button class="promo-btn">Promoção</button>
+            <div class="prod-content">
+              <div class="block">
+                <div class="line padding-top">
+                  <b id="name-detail" class="margin-left">Nome do Produto</b>
+                  <button class="promo-btn">Promoção</button>
+                </div>
+                <div class="display-flex align-items-center justify-content-center">
+                  <p id="descricao-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde maxime velit iure minima facere optio commodi dignissimos, architecto esse quos fugit adipisci cupiditate itaque eum? Recusandae fugiat quidem nihil eveniet?</p>
+                </div>
               </div>
             </div>
-
-          </div>
-            
+        
       </div>
     </div>
     <!-- Path to Framework7 Library Bundle JS-->

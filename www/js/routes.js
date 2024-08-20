@@ -24,6 +24,7 @@ var app = new Framework7({
 	  on: {
 		pageBeforeIn: function (event, page) {
 		// fazer algo antes da página ser exibida
+    $("#menuPrincipal").show("fast");
 		},
 		pageAfterIn: function (event, page) {
 		// fazer algo depois da página ser exibida
@@ -113,10 +114,10 @@ var app = new Framework7({
 	  on: {
 		pageBeforeIn: function (event, page) {
 		// fazer algo antes da página ser exibida
+    $("#menuPrincipal").hide("fast");
 		},
 		pageAfterIn: function (event, page) {
 		// fazer algo depois da página ser exibida
-    $.getScript('js/detalhes.js');
 		},
 		pageInit: function (event, page) {
 		// fazer algo quando a página for inicializada
