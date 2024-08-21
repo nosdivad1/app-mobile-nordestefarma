@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "imagem": "img/paracetamol.png",
+        "nome": "Paracetamol",
+        "descricao": "Paracetamol é um analgésico e antipirético amplamente utilizado para aliviar dores leves a moderadas, como dores de cabeça, dores musculares, dor nas articulações e dor de garganta, além de reduzir febre. É uma opção segura e eficaz para tratar sintomas comuns de resfriado e gripe, sendo bem tolerado por adultos e crianças.",
+        "principal_característica": "30 cps",
+        "preco": "19.90",
+        "preco_promocional": "9,90"
+    },
+    {
+        "id": 2,
+        "imagem": "img/loratadina.png",
+        "nome": "Loratadina",
+        "descricao": "A Loratadina é um anti-histamínico não sedativo usado para aliviar os sintomas de alergias, como coriza, espirros, coceira nos olhos e garganta. Ideal para o tratamento de rinite alérgica e urticária. Sua fórmula proporciona alívio eficaz sem causar sonolência, permitindo que você mantenha suas atividades diárias sem interrupção.",
+        "principal_característica": "10 mg, 10 comprimidos",
+        "preco": "19.90",
+        "preco_promocional": "9,90"
+    },
+    {
+        "id": 3,
+        "imagem": "img/resfenol.png",
+        "nome": "Resfenol",
+        "descricao": "Resfenol é um medicamento indicado para o alívio dos sintomas de resfriado e gripes, como dor de cabeça, dor no corpo, febre e congestão nasal. Sua formulação combina princípios ativos que ajudam a desobstruir as vias respiratórias e reduzir a febre, proporcionando alívio rápido e eficaz para o desconforto causado por infecções virais comuns.",
+        "principal_característica": "20 comprimidos",
+        "preco": "19.90",
+        "preco_promocional": "9,90"
+    },
+    {
+        "id": 4,
+        "imagem": "img/prevent-c.png",
+        "nome": "Prevent C",
+        "descricao": "Prevent C é um suplemento vitamínico que fornece uma dose elevada de vitamina C, essencial para fortalecer o sistema imunológico e combater os radicais livres. Ideal para complementar a dieta e ajudar a prevenir resfriados e outras infecções. Sua fórmula é especialmente desenvolvida para manter a saúde da pele e aumentar a resistência do organismo.",
+        "principal_característica": "60 comprimidos",
+        "preco": "19.90",
+        "preco_promocional": "9,90"
+    }
+]

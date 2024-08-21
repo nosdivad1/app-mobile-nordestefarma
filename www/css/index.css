@@ -75,17 +75,17 @@
 .btn-cart::before {
   content: attr(data-count);
   background: var(--verde);
-  width: 17px;
-  height: 17px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 15px;
   color: var(--branco);
   position: absolute;
   top: 5px;
-  right: 0px;
+  right: -2px;
   margin-right: 5%;
 }
 

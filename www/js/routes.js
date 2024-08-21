@@ -89,12 +89,13 @@ var app = new Framework7({
 	  }
     },
     {
-      path: '/link3/',
-      url: 'link3.html',
+      path: '/carrinho/',
+      url: 'carrinho.html',
       animate: false,
 	  on: {
 		pageBeforeIn: function (event, page) {
 		// fazer algo antes da página ser exibida
+    $("#menuPrincipal").hide("fast");
 		},
 		pageAfterIn: function (event, page) {
 		// fazer algo depois da página ser exibida
@@ -118,6 +119,7 @@ var app = new Framework7({
 		},
 		pageAfterIn: function (event, page) {
 		// fazer algo depois da página ser exibida
+    $.getScript('js/detalhes.js');
 		},
 		pageInit: function (event, page) {
 		// fazer algo quando a página for inicializada
