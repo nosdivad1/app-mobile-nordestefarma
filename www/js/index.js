@@ -21,7 +21,7 @@ fetch('js/backend.json')
                         <div class="nome-rating">
                             <span class="color-gray">${produto.nome}</span>
                         </div>
-                            <div class="price">R$ ${produto.preco_promocional.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}
+                            <div class="price">${produto.preco_promocional.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}
                             </div>
             </div>
         `;
@@ -36,12 +36,12 @@ fetch('js/backend.json')
     }, 1000);
   })
 
-  .catch(error => console.error('Erro ao obter os dados: ' +error))
+  .catch(error => console.error('Erro ao obter os dados: ' +error));
 
   //VER QUANTOS ITENS TEM DENTRO DO CARRINHO
   setTimeout(() => {
     var carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
 
   //ALIMENTAR O CONTADOR DA SACOLA
-  $('.btn-cart').attr('data-count', carrinho.lenght);
+  $('.btn-cart').attr('data-count', carrinho.length);
   }, 300);
