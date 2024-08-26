@@ -6,12 +6,22 @@ var produtos = JSON.parse(localStorage.getItem('produtos'));
 
 //VALIDAR SE O ID DO ITEM É IGUAL AO ID DO LOCALSTORAGE(SE BATER RETORNA TRUE)
 var item = produtos.find(produto => produto.id === id);
+var precoAntigo = item.preco;
+var precoNovo = item.preco_promocional
+function calcularDesconto(precoAntigo, precoNovo) {
+    var valorDesconto = precoAntigo - precoNovo;
+    var porcentagemDesconto = ((valorDesconto / precoAntigo) * 100).toFixed(0);
+    return porcentagemDesconto + "% DE DESCONTO";
+}
+
+var porcentagemDesconto = calcularDesconto(precoAntigo, precoNovo);
+console.log(porcentagemDesconto);
 
 if(item) {
     
     $('#img-detail').attr('src', item.imagem);
     $('#name-detail').html(item.nome);
-    $('#descricao-detail').html(item.descricao);
+    $('#descricao-detail').html(porcentagemDesconto);
     $('#price-detail').html(item.preco.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}));
     $('#price-promo-detail').html(item.preco_promocional.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}));
 
@@ -19,6 +29,7 @@ if(item) {
 }else {
     console.log('Produto não encontrado');
 }
+
 
 var carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
 

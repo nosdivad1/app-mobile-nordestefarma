@@ -91,15 +91,17 @@ function renderizarCarrinho() {
 
       $("#sendWhatsApp").click(function() {
         var listaDeCompra = [];
+        var totalPedido = 0;
         
         // Supondo que itemCarrinho seja uma coleção de elementos, você pode fazer isso:
         carrinho.forEach(function(item) {
-            listaDeCompra.push(`${item.item.nome}, Preço: ${item.item.preco_promocional.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`);
-
+          totalPedido += item.total_item;
+            listaDeCompra.push(`${item.item.nome} // Quantidade: ${item.quantidade} // Preço unidade: ${item.item.preco_promocional.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`);
+            
         });
-
+        console.log("Total do pedido é: ", totalPedido);
         // Junta todos os itens em uma string, separando-os por nova linha (\n)
-        var mensagem = "Olá, estou vindo através do aplicativo e gostaria de comprar os seguintes itens:\n\n" + listaDeCompra.join('\n');
+        var mensagem = "Olá, estou vindo através do aplicativo e gostaria de comprar os seguintes itens:\n\n" + listaDeCompra.join('\n') + "\n\n" + "Total do pedido: " + totalPedido.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});
         // Codifica a mensagem para a URL
         var mensagemCodificada = encodeURIComponent(mensagem);
         // URL do WhatsApp com o número de telefone e a mensagem
@@ -110,7 +112,7 @@ function renderizarCarrinho() {
         window.open(whatsappUrl, '_blank');
 
     });
-
+    
 
 }
 

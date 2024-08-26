@@ -69,8 +69,8 @@ var app = new Framework7({
 	  }
     },
     {
-      path: '/link2/',
-      url: 'link2.html',
+      path: '/contato/',
+      url: 'contato.html',
       animate: false,
 	  on: {
 		pageBeforeIn: function (event, page) {
@@ -82,6 +82,7 @@ var app = new Framework7({
 		},
 		pageInit: function (event, page) {
 		// fazer algo quando a página for inicializada
+    $.getScript('js/contato.js');
 		},
 		pageBeforeRemove: function (event, page) {
 		// fazer algo antes da página ser removida do DOM
@@ -123,6 +124,7 @@ var app = new Framework7({
 		pageAfterIn: function (event, page) {
 		// fazer algo depois da página ser exibida
     $.getScript('js/detalhes.js');
+    
 		},
 		pageInit: function (event, page) {
 		// fazer algo quando a página for inicializada
@@ -131,7 +133,7 @@ var app = new Framework7({
 		// fazer algo antes da página ser removida do DOM
 		},
 	  }
-    },
+    }
   ],
   // ... other parameters
 });

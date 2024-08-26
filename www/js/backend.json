@@ -5,34 +5,106 @@
         "nome": "Paracetamol",
         "descricao": "Paracetamol é um analgésico e antipirético amplamente utilizado para aliviar dores leves a moderadas, como dores de cabeça, dores musculares, dor nas articulações e dor de garganta, além de reduzir febre. É uma opção segura e eficaz para tratar sintomas comuns de resfriado e gripe, sendo bem tolerado por adultos e crianças.",
         "principal_característica": "30 cps",
-        "preco": 19.90,
-        "preco_promocional": 9.90
+        "preco": 9.87,
+        "preco_promocional": 6.99
     },
     {
         "id": 2,
-        "imagem": "img/loratadina.png",
-        "nome": "Loratadina",
+        "imagem": "img/dipirona.png",
+        "nome": "Dipirona",
         "descricao": "A Loratadina é um anti-histamínico não sedativo usado para aliviar os sintomas de alergias, como coriza, espirros, coceira nos olhos e garganta. Ideal para o tratamento de rinite alérgica e urticária. Sua fórmula proporciona alívio eficaz sem causar sonolência, permitindo que você mantenha suas atividades diárias sem interrupção.",
-        "principal_característica": "10 mg, 10 comprimidos",
-        "preco": 19.90,
-        "preco_promocional": 14.90
+        "principal_característica": "500 mg/mL",
+        "preco": 16.67,
+        "preco_promocional": 3.99
     },
-    {
-        "id": 3,
-        "imagem": "img/resfenol.png",
-        "nome": "Resfenol",
-        "descricao": "Resfenol é um medicamento indicado para o alívio dos sintomas de resfriado e gripes, como dor de cabeça, dor no corpo, febre e congestão nasal. Sua formulação combina princípios ativos que ajudam a desobstruir as vias respiratórias e reduzir a febre, proporcionando alívio rápido e eficaz para o desconforto causado por infecções virais comuns.",
-        "principal_característica": "20 comprimidos",
-        "preco": 19.90,
-        "preco_promocional": 9.90
+   {
+        "id": 4,
+        "imagem": "img/suplevit.png",
+        "nome": "Suplevit C",
+        "descricao": "Prevent C é um suplemento vitamínico que fornece uma dose elevada de vitamina C, essencial para fortalecer o sistema imunológico e combater os radicais livres. Ideal para complementar a dieta e ajudar a prevenir resfriados e outras infecções. Sua fórmula é especialmente desenvolvida para manter a saúde da pele e aumentar a resistência do organismo.",
+        "principal_característica": "10 comprimidos",
+        "preco": 19.99,
+        "preco_promocional": 8.99
     },
     {
         "id": 4,
-        "imagem": "img/prevent-c.png",
-        "nome": "Prevent C",
+        "imagem": "img/apevitin.png",
+        "nome": "Apevitin BC",
         "descricao": "Prevent C é um suplemento vitamínico que fornece uma dose elevada de vitamina C, essencial para fortalecer o sistema imunológico e combater os radicais livres. Ideal para complementar a dieta e ajudar a prevenir resfriados e outras infecções. Sua fórmula é especialmente desenvolvida para manter a saúde da pele e aumentar a resistência do organismo.",
-        "principal_característica": "60 comprimidos",
-        "preco": 29.90,
-        "preco_promocional": 19.90
+        "principal_característica": "240mL",
+        "preco": 24.99,
+        "preco_promocional": 17.99
+    },
+    {
+        "id": 5,
+        "imagem": "img/suplevit.png",
+        "nome": "Suplevit C",
+        "descricao": "Prevent C é um suplemento vitamínico que fornece uma dose elevada de vitamina C, essencial para fortalecer o sistema imunológico e combater os radicais livres. Ideal para complementar a dieta e ajudar a prevenir resfriados e outras infecções. Sua fórmula é especialmente desenvolvida para manter a saúde da pele e aumentar a resistência do organismo.",
+        "principal_característica": "10 comprimidos",
+        "preco": 19.99,
+        "preco_promocional": 8.99
+    },
+    {
+        "id": 6,
+        "imagem": "img/miorrelax.png",
+        "nome": "Miorrelax",
+        "descricao": "Prevent C é um suplemento vitamínico que fornece uma dose elevada de vitamina C, essencial para fortalecer o sistema imunológico e combater os radicais livres. Ideal para complementar a dieta e ajudar a prevenir resfriados e outras infecções. Sua fórmula é especialmente desenvolvida para manter a saúde da pele e aumentar a resistência do organismo.",
+        "principal_característica": "20 comprimidos",
+        "preco": 13.93,
+        "preco_promocional": 8.99
+    },
+    {
+        "id": 7,
+        "imagem": "img/perfenol.png",
+        "nome": "Perfenol",
+        "descricao": "Prevent C é um suplemento vitamínico que fornece uma dose elevada de vitamina C, essencial para fortalecer o sistema imunológico e combater os radicais livres. Ideal para complementar a dieta e ajudar a prevenir resfriados e outras infecções. Sua fórmula é especialmente desenvolvida para manter a saúde da pele e aumentar a resistência do organismo.",
+        "principal_característica": "20 comprimidos",
+        "preco": 24.37,
+        "preco_promocional": 9.99
+    },
+    {
+        "id": 8,
+        "imagem": "img/toalhas_umedecidas.png",
+        "nome": "Toalhas Umedecidas",
+        "descricao": "Prevent C é um suplemento vitamínico que fornece uma dose elevada de vitamina C, essencial para fortalecer o sistema imunológico e combater os radicais livres. Ideal para complementar a dieta e ajudar a prevenir resfriados e outras infecções. Sua fórmula é especialmente desenvolvida para manter a saúde da pele e aumentar a resistência do organismo.",
+        "principal_característica": "140 unidades",
+        "preco": 13.99,
+        "preco_promocional": 9.99
+    },
+    {
+        "id": 9,
+        "imagem": "img/giovanna_baby.png",
+        "nome": "Kit Giovanna Baby",
+        "descricao": "Prevent C é um suplemento vitamínico que fornece uma dose elevada de vitamina C, essencial para fortalecer o sistema imunológico e combater os radicais livres. Ideal para complementar a dieta e ajudar a prevenir resfriados e outras infecções. Sua fórmula é especialmente desenvolvida para manter a saúde da pele e aumentar a resistência do organismo.",
+        "principal_característica": "150mL cada",
+        "preco": 32.13,
+        "preco_promocional": 26.90
+    },
+    {
+        "id": 10,
+        "imagem": "img/helioderm.png",
+        "nome": "Kit Helioderm",
+        "descricao": "Prevent C é um suplemento vitamínico que fornece uma dose elevada de vitamina C, essencial para fortalecer o sistema imunológico e combater os radicais livres. Ideal para complementar a dieta e ajudar a prevenir resfriados e outras infecções. Sua fórmula é especialmente desenvolvida para manter a saúde da pele e aumentar a resistência do organismo.",
+        "principal_característica": "120mL",
+        "preco": 89.90,
+        "preco_promocional": 59.99
+    },
+    {
+        "id": 11,
+        "imagem": "img/babysec.png",
+        "nome": "Fraldas Babysec Shortinho",
+        "descricao": "Prevent C é um suplemento vitamínico que fornece uma dose elevada de vitamina C, essencial para fortalecer o sistema imunológico e combater os radicais livres. Ideal para complementar a dieta e ajudar a prevenir resfriados e outras infecções. Sua fórmula é especialmente desenvolvida para manter a saúde da pele e aumentar a resistência do organismo.",
+        "principal_característica": "72 unidades",
+        "preco": 48.90,
+        "preco_promocional": 42.99
+    },
+    {
+        "id": 12,
+        "imagem": "img/babysec_mega.png",
+        "nome": "Fraldas Babysec Mega",
+        "descricao": "Prevent C é um suplemento vitamínico que fornece uma dose elevada de vitamina C, essencial para fortalecer o sistema imunológico e combater os radicais livres. Ideal para complementar a dieta e ajudar a prevenir resfriados e outras infecções. Sua fórmula é especialmente desenvolvida para manter a saúde da pele e aumentar a resistência do organismo.",
+        "principal_característica": "72 unidades",
+        "preco": 45.90,
+        "preco_promocional": 38.90
     }
 ]
