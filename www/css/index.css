@@ -166,8 +166,8 @@ form {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  height: 230px;
-  flex: 45%;
+  height: 240px;
+  flex: 35%;
   margin-right: 5px;
   margin-bottom: 15px;
 }
@@ -183,7 +183,7 @@ form {
 }
 
 .img-container img {
-  max-width: 200px;
+  max-width: 120px;
   object-fit: cover;
 }
 
@@ -208,13 +208,13 @@ form {
 
 @media (min-width: 992px) {
   .item-card {
-    flex: 30%;
+    flex: 20%;
   }
 }
 
 @media (min-width: 1200px) {
   .item-card {
-    flex: 20%;
+    flex: 30%;
   }
 }
 
